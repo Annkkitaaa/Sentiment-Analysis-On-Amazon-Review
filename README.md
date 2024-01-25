@@ -7,7 +7,7 @@ Follow these steps to set up and run the Amazon Alexa Reviews Analyzer:
 ### Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/Surbhit01/Amazon-Alexa-Reviews.git
+git clone https://github.com/Annkkitaaa/Sentiment-Analysis-On-Amazon-Review.git
 ```
 
 ### Step 2: Create and Activate a Conda Environment
