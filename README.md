@@ -1,4 +1,21 @@
 # Sentiment-Analysis-On-Amazon-Review
+This project implements a sentiment analysis model for Amazon Alexa reviews using machine learning algorithms and provides a Flask API for making predictions.
+
+## Overview
+
+The sentiment analysis model analyzes Amazon Alexa reviews to predict whether they convey positive or negative sentiments. The project contains code for data exploration, model training, and a Flask API for making predictions.
+
+## Folder Structure
+
+- `Data/`: Contains the necessary data file (`amazon_alexa_reviews.csv`) for training and testing the sentiment analysis model.
+- `Models/`: Contains pre-trained models stored as pickle files:
+  - `decision_tree_model.pkl`: Decision tree model.
+  - `random_forest_model.pkl`: Random forest model.
+  - `xgboost_model.pkl`: XGBoost model.
+- `countvectorizer.pkl`: CountVectorizer file used for text vectorization.
+- `notebooks/`: Contains Jupyter notebooks for data exploration and model training.
+- `api.py`: Flask application code for the sentiment analysis API.
+
 
 ## How to Run
 
